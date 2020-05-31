@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+<link href="css/app.css" rel="stylesheet" type="text/css"/>
+<link href="css/passbook.css" rel="stylesheet" type="text/css"/>
+</head>
+<body class="body-background-passbook">
+<header>
+    <div class="header-content-div">
+        <i class="fa fa-arrow-left header-left-arrow" aria-hidden="true"></i>
+        <div class="text-align-center">
+            <span class="passbook-heading">Passbook</span>
+        </div>
+    </div>
+</header>
+<section>
+    <div class="datepicker-div">
+        <div>
+            <div class="display-inline padding-top-30 padding-bottom-36">
+                <input class="datepicker-input" type="date" id="from-date" name="date">
+                <input class="datepicker-input" type="date" id="to-date" name="date">
+            </div>
+            <div class="display-inline calendar-div">
+                <div>
+                    <span class="view-results">View Results</span>
+                </div>
+                <i class="fa fa-arrow-right padding-left-10 padding-top-8" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div>
+    <div class="passbook-div-background">
+        <div class="passbook-details-first-div">
+            <div class="icon-div">
+                <i class="fa fa-arrow-circle-up img-icon-up" aria-hidden="true"></i>
+                <span class="img-text">&#8377; 250</span>
+            </div>
+            <div class="date-time-div">
+                <span class="date-time-text">27 April , 2:45 PM </span>
+            </div>
+        </div>
+        <div class="passbook-details-second-div">
+            <div class="icon-div">
+                <i class="fa fa-arrow-circle-down img-icon-down" aria-hidden="true"></i>
+                <span class="img-text">&#8377; 350</span>
+            </div>
+            <div class="date-time-div">
+                <span class="date-time-text">24 April , 2:45 PM </span>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+.body-background-wallet{
+    background-color: #2D2D2D;
+    margin-left: 0px;
+}
+
+.div-background{
+    background: url(../images/background.jpg) 50% fixed;
+    padding-top: 46px;
+    z-index: 1;
+    margin-top: 84px;
+    padding-bottom: 90px;
+}
+
+.header-left-arrow{
+    color: white;
+    font-size: 26px;
+}
+
+.wallet-image{
+    position: absolute;
+    top: 70px;
+    left: 96px;
+    width: 44%;
+    height: 20%;
+    z-index: 10;
+}
+
+.wallet-heading{
+    color: white;
+    font-size: 22px;
+    margin-left: 72px;
+}
+
+.add-money-div{
+    text-align: center;
+    padding: 16px;
+    margin: 45px;
+    background-color: #F9C08F;
+    border-radius: 15px;
+}
+
+.add-money-text{
+    color: #252222;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.wallet-actions-div{
+    background-color: white;
+    border-radius: 18px;
+    margin-left: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 12px;
+}
+
+.wallet-actions-image{
+    color: red;
+    font-size: 28px;
+}
+
+.wallet-actions-text{
+    color: #545454;
+    font-size: 18px;
+}
+
+.total-earned-money-div{
+    display: inline-flex;
+    padding: 8px;
+    border-radius: 12px;
+    margin-left: 20px;
+}
+
+.gift-icon{
+    color: #F8BF8E;
+    font-size: 28px;
+    background-color: blanchedalmond;
+    padding: 15px;
+    position: absolute;
+    border-radius: 4px 20px 20px 4px;
+}
+
+.total-earned-money-text-value{
+    background-color: grey;
+    border-radius: 0px 10px 10px 0px;
+    padding: 15px 7px 5px 54px;
+}
+
+.total-earned-money-text{
+    color: antiquewhite;
+    font-size: 12px;
+}
+
+.total-earned-money-value{
+    color: #F8BF8E;
+    font-size: 16px;
+    text-align: center;
+}

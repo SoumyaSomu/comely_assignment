@@ -1,0 +1,97 @@
+.body-background-settings{
+    background-color: #2D2D2D;
+    margin-left: 0px;
+    position: fixed;
+}
+
+.settings-div-background{
+    background: url(../images/background.jpg) 0% no-repeat;
+    z-index: 1;
+    padding-bottom: 100px;
+}
+
+.header-content-div{
+    display: inline-flex;
+    margin-top: 14px;
+}
+
+.header-left-arrow{
+    color: white;
+    font-size: 26px;
+}
+
+.settings-heading{
+    color: white;
+    font-size: 22px;
+    margin-left: 80px;
+}
+
+.account-settings{
+    padding-left: 16px;
+    color: coral;
+    font-size: 20px;
+}
+
+.text-div{
+    display: inline-block;
+    float: left;
+}
+
+.icon-div{
+    float: right;
+    display: inline-block;
+}
+
+.text-span{
+    font-size: 20px;
+    font-weight: 700;
+    color: #4C4C4C;
+}
+
+.icon-span{
+    color: #EFBA8A;
+    font-size: 30px;
+}
+
+.hr-styling{
+    margin-top: 26px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.settings-content-padding{
+    padding: 6px 22px 14px 20px;
+}
+
+.profile-image-div{
+    margin: 22px;
+    border-radius: 15px;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    text-align: center;
+    z-index: 10;
+}
+
+.profile_image{
+    width: 90px;
+    height: 90px;
+    border-radius: 48px;
+}
+
+.profile-name{
+    display: contents;
+    color: white;
+    font-size: 20px;
+    top: 6px;
+    position: absolute;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    width: max-content;
+    left: 100px;
+}
+
+.settings-section{
+    padding-top: 14px!important;
+}
